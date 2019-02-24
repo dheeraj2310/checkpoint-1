@@ -23,6 +23,13 @@ int countFactorials(long int low,long int high)
  
 
 {
+
+if((low>high) || low>0 || high>0 )
+{
+	return -1;
+}
+else
+{
 int a,b,count=0,fact;
 	for(a=low;a<high/2;a++)
 	{  
@@ -37,5 +44,6 @@ int a,b,count=0,fact;
 		
 return count; 
 } 
+}
 
 
