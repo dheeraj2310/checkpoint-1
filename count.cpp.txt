@@ -17,20 +17,7 @@ int c;
 c=num2/num1;
 printf("%d",c);
 	return 0;
+if((num1>num2)	|| (num1<=0 || num2<=0))
+	return -1;
 }
-int main()
-{
-int initial,final;
-scanf("%d %d",&initial,&final);
-if(initial<=0 || final<=0 || initial>final)
-{
-printf("-1");
-}
-else
-{
-count(initial,final);
-}
-return 0;
-}
-
 
