@@ -23,7 +23,7 @@ void isPerfect(long input[], int output[], int length)
 {  
 int a,count;
 long long int b;
-for(a=0;a<lenght;a++)
+for(a=0;a<length;a++)
 {
 	count=1;
 	for(b=2;b<input[a]/2;b++)
